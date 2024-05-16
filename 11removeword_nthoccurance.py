@@ -1,10 +1,10 @@
 ls = ["geeks", "for", "geeks", "geeks", "geeks"]
-words = "geeks"
+word = "geeks"
 n = 3
 count = 0
 
 for i in range(0,len(ls)-1):
-    if ls[i] == words:
+    if ls[i] == word:
         count += 1
         if count == n:
             del ls[i]

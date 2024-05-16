@@ -12,6 +12,7 @@ for i in range(0, len(ls)):
         temp = ls[i]
 print("Max", temp)
 
+
 # Approach3 - min & max
 print(min(ls))
 print(max(ls))

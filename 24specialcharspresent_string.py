@@ -1,4 +1,5 @@
 import re
+
 str1 = "welcome@@2To%%Python**Programming@!!^%%@$"
 str2 = "Welcome to Python Programming"
 
@@ -6,7 +7,7 @@ str2 = "Welcome to Python Programming"
 # [@_!#$%^&*()<>?/|}{~:]
 regex = re.compile('[@_!#$%^&*()<>?/|}{~:]')
 
-if regex.search(str2) == None :
+if regex.search(str2) is None:
     print("No Special characters present in a string")
 else:
     print("String contains special characters")

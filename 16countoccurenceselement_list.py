@@ -15,3 +15,10 @@ print("{} has occured {} times".format(n, ls.count(n)))
 from collections import Counter
 dic = Counter(ls)
 print("{} has occured {} times".format(n, dic[n]))
+print(f"{n} has occured {dic[n]} times")
+
+# string
+str1 = "sreenivasan"
+for i in str1:
+    if str1.count(i) > 1:
+       print(i, "-", str1.count(i))
